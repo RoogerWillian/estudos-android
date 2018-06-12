@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ComponentesBasicos</string>
+    <string name="nome_do_produto">Nome do produto</string>
+    <string name="enviar">Enviar</string>
+    <string name="tvresultado">Resultado</string>
+    <string name="branco">Branco</string>
+    <string name="verde">Verde</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="dispon_vel_em_estoque">Disponível em estoque</string>
+    <string name="sim">Sim</string>
+    <string name="n_o">Não</string>
+</resources>
