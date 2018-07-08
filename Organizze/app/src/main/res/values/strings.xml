@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Organizze</string>
+    <string name="organize_suas_contas_n_de_onde_estiver">Organize suas contas \n de onde estiver</string>
+    <string name="saiba_para_onde_est_indo_seu_dinheiro">Saiba para onde está indo \n o seu dinheiro</string>
+    <string name="categorizando_seus_lan_amentos_e_vendo_destino_de_cada_centavo">Categorizando seus lançamentos e vendo o \n destino de cada centavo</string>
+    <string name="nunca_mais_esque_a_de_pagar_uma_conta">Nunca mais esqueça de \n pagar uma conta</string>
+    <string name="receba_alertas_quando_quiser">Receba alertas quando quiser</string>
+    <string name="tudo_organizado_no_celular_ou_computador">Tudo organizado, no \n celular ou computador</string>
+    <string name="use_no_seu_smartphone_ou_acessando_o_organizze_pelo_site">Use no seu smartphone ou \n acessando o Organizze pelo site</string>
+    <string name="crie_sua_conta_gr_tis">Crie sua conta grátis</string>
+    <string name="junte_se_a_mais_de_meio_milh_o_de_pessoas_e_comece_j">Junte-se a mais de meio milhão \n de pessoas e comece já</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="r_0_00">R$ 0.00</string>
+    <string name="acao_sair">Sair</string>
+</resources>
