@@ -5,9 +5,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,6 +22,10 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.DataSource;
+import com.bumptech.glide.load.engine.GlideException;
+import com.bumptech.glide.request.RequestListener;
+import com.bumptech.glide.request.target.Target;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseUser;
@@ -191,12 +197,6 @@ public class ConfiguracoesActivity extends AppCompatActivity {
         });
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        progressBarUpload.setVisibility(View.VISIBLE);
-    }
-
     public void carregarDadosUsuario() {
         this.progressBarUpload.setVisibility(View.VISIBLE);
         // Recuperando foto
@@ -205,11 +205,22 @@ public class ConfiguracoesActivity extends AppCompatActivity {
         if (uri != null) {
             Glide.with(ConfiguracoesActivity.this)
                     .load(uri)
-                    .into(circleImageViewFotoPerfil);
+                    .listener(new RequestListener<Drawable>() {
+                        @Override
+                        public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
+                            return false;
+                        }
 
-            progressBarUpload.setVisibility(View.GONE);
+                        @Override
+                        public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
+                            progressBarUpload.setVisibility(View.GONE);
+                            return false;
+                        }
+                    })
+                    .into(circleImageViewFotoPerfil);
         } else {
             circleImageViewFotoPerfil.setImageResource(R.drawable.padrao);
+            progressBarUpload.setVisibility(View.GONE);
         }
         // Recuperando nome
         editNome.setText(usuario.getDisplayName());

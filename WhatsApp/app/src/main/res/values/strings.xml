@@ -13,4 +13,10 @@
     <string name="aba_contatos">Contatos</string>
     <string name="hint_nome_usuario">Nome do usuário</string>
     <string name="explicacao_nome_usuario">Esse não seu nome de usuário nem sua senha. Esse nome ficará visível para seus contatos do WhatsApp</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_grupo">GrupoActivity</string>
+    <string name="title_activity_cadastro_grupo">CadastroGrupoActivity</string>
+    <string name="nome_grupo">Nome do grupo</string>
+    <string name="defina_um_nome_e_uma_imagem_opcional">Defina um nome e uma imagem opcional</string>
+    <string name="participantes_0">Participantes: 0</string>
 </resources>

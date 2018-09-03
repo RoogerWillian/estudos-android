@@ -42,6 +42,8 @@ dependencies {
     /* Dependencia para arredondamento de imagens */
     implementation 'de.hdodenhof:circleimageview:2.2.0'
 
+    /* MaterialSearchView */
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
