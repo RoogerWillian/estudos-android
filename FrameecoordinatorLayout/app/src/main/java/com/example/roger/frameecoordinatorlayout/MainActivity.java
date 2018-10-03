@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         /*    frameLayout.setVisibility(View.GONE);*/
     }
 
-    /*    public void abrir(View view) {
+    public void abrir(View view) {
         frameLayout.setVisibility(View.VISIBLE);
-    }*/
+    }
 }

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "254348883574",
+    "firebase_url": "https://instagram-1d3ee.firebaseio.com",
+    "project_id": "instagram-1d3ee",
+    "storage_bucket": "instagram-1d3ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254348883574:android:ad4ccc64280dd489",
+        "android_client_info": {
+          "package_name": "instagram.com.rogerwillian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254348883574-uf6ub8lth41591cblkav7ptma9sdiihu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "instagram.com.rogerwillian",
+            "certificate_hash": "10de8b5b05ce45dadf3c4aecda153b0bc936b67f"
+          }
+        },
+        {
+          "client_id": "254348883574-futti7rj92klgjvcvmtgrbmtkfjdm98d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhR27pkU0ZwIgQxwIj699Rjt2kGx12w-0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254348883574-futti7rj92klgjvcvmtgrbmtkfjdm98d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

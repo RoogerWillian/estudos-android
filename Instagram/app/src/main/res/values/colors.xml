@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
+    <color name="colorAccent">#A03d89</color>
+    <color name="primary_material_dark_1">#462759</color>
+    <color name="primary_dark_material_light_1">#462759</color>
+    <color name="cinza_medio">#FAFAFA</color>
+    <color name="roxo">#462759</color>
+    <color name="azul_escuro">#3f51b5</color>
+    <color name="colorAccentLoginCadastro">#E040FB</color>
+    <color name="vermelhoSuave">#f44336</color>
+</resources>

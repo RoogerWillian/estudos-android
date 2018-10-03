@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="email_login">E-mail</string>
+    <string name="texto_entrar">Entrar</string>
+    <string name="texto_cadastre_se">Cadastre-se</string>
+    <string name="text_senha">Senha</string>
+    <string name="texto_nome">Nome</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="texto_sair">Sair</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_pesquisa">Pesquisa</string>
+    <string name="menu_postagem">Postagem</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="salvando_postagem">Publicando postagem...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_publicacoes">Postagens</string>
+    <string name="text_seguidores">Seguidores</string>
+    <string name="text_seguindo">Seguindo</string>
+    <string name="text_editar_perfil">Editar Perfil</string>
+    <string name="text_number_zero">0</string>
+    <string name="text_alterar_foto">Alterar foto</string>
+    <string name="text_nome_usuario">Nome usuário</string>
+    <string name="text_e_mail">E-mail</string>
+    <string name="text_salvar_alteracoes">Salvar alterações</string>
+    <string name="text_seguir">Seguir</string>
+    <string name="text_deixar_de_seguir">Deixar de seguir</string>
+    <string name="text_carregando">Carregando...</string>
+    <string name="text_abrir_galeria">Abrir Galeria</string>
+    <string name="text_abrir_camera">Abrir Câmera</string>
+    <string name="text_publicar">Publicar</string>
+    <string name="text_descricao">Descrição</string>
+    <string name="foto_da_postagem">Foto da postagem</string>
+    <string name="texto_filtro">Filtro</string>
+    <string name="text_place_name">put name here</string>
+    <string name="text_likes">0 curtidas</string>
+    <string name="text_visualizar_comentarios">Visualizar comentários</string>
+    <string name="text_view_post">Visualização Postagem</string>
+</resources>
