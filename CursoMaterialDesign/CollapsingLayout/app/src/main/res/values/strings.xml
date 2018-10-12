@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CollapsingLayout</string>
+    <string name="editar">Editar</string>
+    <string name="favoritar">Favoritar</string>
+    <string name="aaa">aaa</string>
+    <string name="_14_99869_5260">(14) 99999-9999</string>
+    <string name="celular">Celular</string>
+    <string name="roger_nizoli_gmail_com">mail@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="rua_elza_pires_correa_pedro">Rua X, São Paulo</string>
+    <string name="endere_o">Endereço</string>
+</resources>

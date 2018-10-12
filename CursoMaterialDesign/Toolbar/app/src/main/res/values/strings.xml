@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Toolbar</string>
+    <string name="buscar">Buscar</string>
+    <string name="carrinho">Carrinho</string>
+    <string name="configura_es">Configurações</string>
+    <string name="sobre">Sobre</string>
+</resources>

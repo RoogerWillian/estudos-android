@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <string name="nome">Roger Willian</string>
+    <string name="roger_nizoli_gmail_com">roger.nizoli@gmail.com</string>
+    <string name="spam">Spam</string>
+    <string name="lixeira">Lixeira</string>
+    <string name="outros">Outros</string>
+    <string name="email_enviados">Email Enviados</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="inbox">Inbox</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CardView</string>
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="estamos_criando_um_belo_cardview_para_nosso_projeto_de_app_android">Estamos criando um belo cardview para nosso projeto de app Android</string>
+    <string name="botao_1">BOTAO 1</string>
+    <string name="botao_2">Botao 2</string>
+</resources>

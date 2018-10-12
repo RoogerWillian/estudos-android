@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TextField</string>
+    <string name="preenche_seu_email">E-mail</string>
+    <string name="preencha_sua_senha">Senha</string>
+    <string name="login">Login</string>
+</resources>
