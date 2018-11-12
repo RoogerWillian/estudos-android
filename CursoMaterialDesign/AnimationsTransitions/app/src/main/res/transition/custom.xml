@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <changeBounds android:duration="250">
+        <targets>
+            <target android:targetId="@+id/imageView" />
+        </targets>
+    </changeBounds>
+
+    <fade android:startDelay="300" android:duration="250">
+        <targets>
+            <target android:targetId="@+id/button" />
+            <target android:targetId="@+id/nextScene" />
+            <target android:targetId="@+id/prevScene" />
+        </targets>
+    </fade>
+</transitionSet>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="title">Title</string>
+    <string name="descri_o_ou_subtitulo">Descrição ou subtitulo</string>
+    <string name="mais_detalhes">Mais detalhes</string>
+</resources>

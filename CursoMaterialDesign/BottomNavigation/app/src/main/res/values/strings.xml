@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+    <string name="label_favoritos">Favoritos</string>
+    <string name="label_caminho">Caminho</string>
+    <string name="label_localizacao">Localização</string>
+</resources>
